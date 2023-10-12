@@ -1,0 +1,420 @@
+.header {
+    background-color: #2f1893;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .header .div {
+    background-color: var(--background-dark);
+    width: 1400px;
+    height: 890px;
+    position: relative;
+  }
+  
+  .header .sign-up-form {
+    position: absolute;
+    width: 476px;
+    height: 600px;
+    top: 187px;
+    left: 715px;
+  }
+  
+  .header .overlap-group {
+    position: relative;
+    width: 470px;
+    height: 600px;
+    background-color: var(--background-light);
+    border-radius: 10px;
+  }
+  
+  .header .text-wrapper {
+    top: 529px;
+    left: 325px;
+    color: #25dac4;
+    line-height: var(--text-article-line-height);
+    position: absolute;
+    font-family: var(--text-article-font-family);
+    font-weight: var(--text-article-font-weight);
+    font-size: var(--text-article-font-size);
+    letter-spacing: var(--text-article-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--text-article-font-style);
+  }
+  
+  .header .do-you-have-an-accou {
+    position: absolute;
+    top: 529px;
+    left: 100px;
+    font-family: var(--text-article-font-family);
+    font-weight: var(--text-article-font-weight);
+    color: var(--colors-text);
+    font-size: var(--text-article-font-size);
+    text-align: center;
+    letter-spacing: var(--text-article-letter-spacing);
+    line-height: var(--text-article-line-height);
+    white-space: nowrap;
+    font-style: var(--text-article-font-style);
+  }
+  
+  .header .middle-fill {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    top: 449px;
+    left: 70px;
+    background-color: var(--socials-twitter);
+    border-radius: 100px;
+  }
+  
+  .header .sign-up {
+    height: 26px;
+    top: 11px;
+    left: 96px;
+    color: var(--colors-white);
+    text-align: center;
+    line-height: var(--buttons-middle-line-height);
+    position: absolute;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    font-size: var(--buttons-middle-font-size);
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .sign-up-wrapper {
+    width: 330px;
+    height: 50px;
+    top: 338px;
+    left: 70px;
+    background-color: var(--action-secondary);
+    position: absolute;
+    border-radius: 100px;
+  }
+  
+  .header .sign-up-2 {
+    position: absolute;
+    height: 26px;
+    top: 11px;
+    left: 137px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    text-align: center;
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .divider-or {
+    position: absolute;
+    width: 330px;
+    height: 26px;
+    top: 406px;
+    left: 69px;
+  }
+  
+  .header .divider {
+    position: absolute;
+    width: 144px;
+    height: 2px;
+    top: 11px;
+    left: 185px;
+  }
+  
+  .header .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 155px;
+    opacity: 0.9;
+    font-family: var(--text-paragraph-font-family);
+    font-weight: var(--text-paragraph-font-weight);
+    color: var(--colors-text);
+    font-size: var(--text-paragraph-font-size);
+    text-align: center;
+    letter-spacing: var(--text-paragraph-letter-spacing);
+    line-height: var(--text-paragraph-line-height);
+    white-space: nowrap;
+    font-style: var(--text-paragraph-font-style);
+  }
+  
+  .header .img {
+    position: absolute;
+    width: 144px;
+    height: 2px;
+    top: 11px;
+    left: -1px;
+  }
+  
+  .header .checkbox-checked {
+    position: absolute;
+    width: 267px;
+    height: 26px;
+    top: 284px;
+    left: 70px;
+  }
+  
+  .header .checked {
+    position: absolute;
+    top: 0;
+    left: 37px;
+    font-family: var(--text-paragraph-font-family);
+    font-weight: var(--text-paragraph-font-weight);
+    color: var(--colors-text);
+    font-size: var(--text-paragraph-font-size);
+    letter-spacing: var(--text-paragraph-letter-spacing);
+    line-height: var(--text-paragraph-line-height);
+    white-space: nowrap;
+    font-style: var(--text-paragraph-font-style);
+  }
+  
+  .header .on {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
+  .header .middle-dark-outline {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    top: 204px;
+    left: 70px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: var(--colors-grey);
+  }
+  
+  .header .text-wrapper-3 {
+    position: absolute;
+    height: 26px;
+    top: 9px;
+    left: 22px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-text);
+    font-size: var(--buttons-middle-font-size);
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .div-wrapper {
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    top: 134px;
+    left: 70px;
+    border-radius: 100px;
+    border: 2px solid;
+    border-color: var(--colors-grey);
+  }
+  
+  .header .sign-up-3 {
+    position: absolute;
+    top: 48px;
+    left: 114px;
+    font-family: var(--heading-h3-title-font-family);
+    font-weight: var(--heading-h3-title-font-weight);
+    color: var(--colors-heading);
+    font-size: var(--heading-h3-title-font-size);
+    text-align: center;
+    letter-spacing: var(--heading-h3-title-letter-spacing);
+    line-height: var(--heading-h3-title-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-h3-title-font-style);
+  }
+  
+  .header .text {
+    position: absolute;
+    width: 431px;
+    height: 496px;
+    top: 219px;
+    left: 209px;
+  }
+  
+  .header .the-most-important-p {
+    position: absolute;
+    width: 363px;
+    top: 241px;
+    left: 3px;
+    font-family: var(--heading-h5-lead-font-family);
+    font-weight: var(--heading-h5-lead-font-weight);
+    color: var(--colors-white);
+    font-size: var(--heading-h5-lead-font-size);
+    letter-spacing: var(--heading-h5-lead-letter-spacing);
+    line-height: var(--heading-h5-lead-line-height);
+    font-style: var(--heading-h5-lead-font-style);
+  }
+  
+  .header .middle-fill-2 {
+    width: 157px;
+    height: 50px;
+    top: 446px;
+    left: 0;
+    background-color: var(--action-third);
+    position: absolute;
+    border-radius: 100px;
+  }
+  
+  .header .sign-up-4 {
+    position: absolute;
+    height: 26px;
+    top: 11px;
+    left: 31px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    text-align: center;
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .twenty-five-awesome {
+    position: absolute;
+    width: 424px;
+    top: 0;
+    left: 3px;
+    font-family: var(--heading-h2-header-font-family);
+    font-weight: var(--heading-h2-header-font-weight);
+    color: var(--colors-white);
+    font-size: var(--heading-h2-header-font-size);
+    letter-spacing: var(--heading-h2-header-letter-spacing);
+    line-height: var(--heading-h2-header-line-height);
+    font-style: var(--heading-h2-header-font-style);
+  }
+  
+  .header .header-menu {
+    position: absolute;
+    width: 972px;
+    height: 40px;
+    top: 65px;
+    left: 213px;
+  }
+  
+  .header .navbar {
+    position: absolute;
+    width: 511px;
+    height: 40px;
+    top: 0;
+    left: 469px;
+  }
+  
+  .header .middle-fill-3 {
+    width: 120px;
+    height: 40px;
+    top: 0;
+    left: 383px;
+    background-color: var(--action-third);
+    position: absolute;
+    border-radius: 100px;
+  }
+  
+  .header .sign-up-5 {
+    position: absolute;
+    height: 26px;
+    top: 6px;
+    left: 21px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    text-align: center;
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .text-wrapper-4 {
+    left: 265px;
+    position: absolute;
+    top: 7px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .text-wrapper-5 {
+    left: 196px;
+    position: absolute;
+    top: 7px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .text-wrapper-6 {
+    left: 113px;
+    position: absolute;
+    top: 7px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .about {
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 7px;
+    font-family: var(--buttons-middle-font-family);
+    font-weight: var(--buttons-middle-font-weight);
+    color: var(--colors-white);
+    font-size: var(--buttons-middle-font-size);
+    letter-spacing: var(--buttons-middle-letter-spacing);
+    line-height: var(--buttons-middle-line-height);
+    white-space: nowrap;
+    font-style: var(--buttons-middle-font-style);
+  }
+  
+  .header .white {
+    position: absolute;
+    width: 111px;
+    height: 19px;
+    top: 9px;
+    left: 0;
+  }
+  
+  .header .white-2 {
+    position: relative;
+    height: 19px;
+  }
+  
+  .header .text-wrapper-7 {
+    position: absolute;
+    top: -7px;
+    left: 2px;
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--colors-white);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.29px;
+    line-height: normal;
+  }
